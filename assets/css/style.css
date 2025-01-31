@@ -17,8 +17,20 @@ body {
 
 /* Header */
 header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 150px;
+    
+}
 
-
+/* Logo */
 #logo {
-
+    height 100px;
+    width: 200px;
 }
