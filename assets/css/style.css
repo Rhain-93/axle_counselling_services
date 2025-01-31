@@ -48,14 +48,14 @@ header {
 }
 #menu > li {
     margin-bottom: 1em;
-    margin-top: auto;
+    list-style-type: none;
    
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color:blanchedalmond;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -77,3 +77,44 @@ nav {
     font-size: 2rem;
     padding-top: 0.5rem;
 }
+
+
+
+
+/*Media Queries/*
+/*Media queries: Tablets and larger (768px and up.)*/
+@media screen and (min-width:768px) {
+    /*Header*/
+
+
+
+/*Media queries: Laptops & Desktops (992px and up.)*/
+@media screen and (min-width:992px) {
+
+    nav {
+        display:block;
+        position:static;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+        
+    }
+    
+    #menu {
+        display:flex;
+        flex-direction: row;
+         
+    }
+    
+    #menu > li {
+        padding-left:1rem;
+        list-style-type: none;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
