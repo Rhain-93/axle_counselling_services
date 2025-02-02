@@ -30,6 +30,8 @@ header {
     
 }
 
+
+
 /* Logo */
 
      img {
@@ -59,7 +61,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #2a2a2a;
     display: none;
     top: 200px;
     z-index: 1000;
@@ -76,6 +78,14 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     padding-top: 0.5rem;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+header a{
+    color:slategray;
+    text-decoration: none;
 }
 
 
