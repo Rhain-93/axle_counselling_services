@@ -1,3 +1,5 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -10,7 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Gruppo, sans-serif;
+    font-family: 'Hubballi', sans-serif;
     /*Generic project styles*/
     color: #2a2a2a;
 }
@@ -26,8 +28,8 @@ header {
     justify-content: space-between;
     align-items: baseline;
     height: 200px;
-    background-color:blanchedalmond
-    
+    background-color: blanchedalmond;
+    font-family: 'Hubballi', sans-serif;
 }
 
 
