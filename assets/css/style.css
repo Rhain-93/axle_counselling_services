@@ -17,6 +17,7 @@ body {
     color: #2a2a2a;
 }
 
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -30,6 +31,15 @@ header {
     height: 200px;
     background-color: blanchedalmond;
     font-family: 'Hubballi', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1;
+    font-family: inherit;
+    display: flex;
+
+    
 }
 
 
@@ -90,13 +100,18 @@ header a{
     text-decoration: none;
 }
 
+p {
+    margin-left: auto;
+}
 
 
 
-/*Media Queries/*
+
+/*Media Queries*/
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
     /*Header*/
+}
 
 
 
@@ -130,3 +145,4 @@ header a{
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+}
