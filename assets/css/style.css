@@ -1,5 +1,5 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -12,16 +12,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Hubballi', sans-serif;
+    font-family: 'Gabarito', sans-serif;
     /*Generic project styles*/
     color: #2a2a2a;
 }
+body h2 {
+    margin-top: 1rem;
+}
 
-
-h1,h2,h3 {
-    font-family: 'Hubballi', sans-serif;
-    font-weight: bolder;
-    font-size: larger;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Zain', sans-serif;
+    color: rgb(100, 83, 128) !important;
+    font-size:  40px !important;
+    text-align: center;
+    text-transform: uppercase;
+ 
 }
 
 /* Header */
@@ -36,7 +41,7 @@ header {
     align-items: baseline;
     height: 150px;
     background-color: white;
-    font-family: 'Hubballi', sans-serif;
+    font-family: 'Zain', sans-serif;
 }
 
 
@@ -103,22 +108,13 @@ header a{
 
 /*Introduction*/
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-family: 'Hubballi', sans-serif;
-    text-align: center;
-    border: 1rem;
-    border-radius: 1.5;
-    padding: 0.5rem;
-    font-weight: bolder;
-}
+
 
 p {
     font-size: 100%;
     line-height: 1.5;
     margin-bottom: 1rem;
-    font-family: 'calibra', sans-serif;
+    font-family: 'Gabarito', sans-serif;
     text-align: left;
     padding: 0.5rem
 
