@@ -96,6 +96,7 @@ header a{
     text-decoration: none;
 }
 
+/* Main content */
 
 /*Introduction*/
 #intro {
@@ -117,13 +118,22 @@ h2 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 100%;
     line-height: 1.5;
     margin-bottom: 1rem;
     font-family: 'Hubballi', sans-serif;
     text-align: left;
     padding: 0.5rem
 
+}
+
+.vicky_potrait {
+    display: flex;
+    justify-self: center;
+    height: 500px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%;
 }
 
 
