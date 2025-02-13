@@ -50,9 +50,7 @@ header {
 
      img {
        height: 150px;
-       
-       
-       
+ 
      }
 
 
@@ -113,11 +111,11 @@ header a{
 p {
     font-size: 100%;
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin: 1rem;
     font-family: 'Gabarito', sans-serif;
     text-align: left;
-    padding: 0.5rem
-
+    padding: 0.5rem;
+    background-color:rgb(255, 230, 203);
 }
 
 #breakline {
@@ -126,8 +124,9 @@ p {
     width:80%;
     display: flex;
     justify-self: center;
-    border-radius: 10%;
+    border-radius: 5%;
     opacity: 0.9;
+    margin-bottom: 1rem;
 }
 
 .vicky_potrait {
