@@ -44,7 +44,14 @@ header {
     font-family: 'Zain', sans-serif;
 }
 
-
+/*Hero section*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/sunset-beach.webp) no-repeat center center/ cover;
+    position: relative;
+    
+}
 
 /* Logo */
 
@@ -116,11 +123,12 @@ p {
     text-align: left;
     padding: 0.5rem;
     background-color:rgb(255, 230, 203);
+    border-radius: 5%;
 }
 
 #breakline {
     background-color: orange;
-    height: 20px;
+    height: 5px;
     width:80%;
     display: flex;
     justify-self: center;
@@ -137,6 +145,22 @@ p {
     padding: 1rem;
     border-radius: 10%;
 }
+
+
+.cover-text {
+    background-color:rgb(211, 205, 217);
+    opacity: 0.9;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 70%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+   
+}
+
+
 
 
 
@@ -177,6 +201,6 @@ p {
     }
 
     #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid rgbrgb(100, 83, 128);
     }
 }
