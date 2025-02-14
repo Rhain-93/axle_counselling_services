@@ -9,18 +9,27 @@
 
 /*General styles*/
 body {
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     font-family: 'Gabarito', sans-serif;
     /*Generic project styles*/
     color: #2a2a2a;
+    
+}
+
+
+
+    main {
+        /*make main element take up any suplus space and pushes footer down.*/
+        flex: 1 0 auto;
 }
 
 .wrapper {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+    min-height: 100vhra
 }
 
 body h2 {
@@ -118,9 +127,6 @@ header a{
 
 /* Main content */
 
-/*Introduction*/
-
-
 
 p {
     font-size: 100%;
@@ -169,6 +175,17 @@ p {
 
 
 
+footer {
+    background-color: #353d2f;
+    line-height: 40px;
+    color: #DADFF7;
+    padding-left: 4px;
+    bottom: 0;
+
+}
+
+
+
 
 
 
@@ -212,6 +229,7 @@ p {
     }
 
     /*Main content*/
+   
  
     /*hero image*/
 
@@ -224,7 +242,9 @@ p {
     height: 800px;
 }
 
-}
+
+/*Footer section*/
+
 
 
 
@@ -260,5 +280,7 @@ p {
         border-bottom: 1px solid rgb(100, 83, 128);
         color: rgb(247, 148, 29) ;
     }
+
+}
 
 }
