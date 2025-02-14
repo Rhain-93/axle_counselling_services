@@ -169,6 +169,51 @@ p {
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
     /*Header*/
+
+
+   /*Logo*/
+    img {
+        height: 180px;
+  
+      }
+
+    header {
+        background-color: #ffffff;
+        padding: 0 1rem;
+        z-index: 99;
+        width: 100%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 180px;
+        background-color: white;
+        font-family: 'Zain', sans-serif;
+    } 
+
+    nav {
+        position: absolute;
+        background-color:white;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #2a2a2a;
+        display: none;
+        top: 180px;
+        z-index: 1000;
+        list-style-type: none;
+    }
+
+    /*Main content*/
+ 
+    /*hero image*/
+
+    .hero {
+        height: 900px;
+
+    /*Vicky's potrait*/
+    
+    }
 }
 
 
