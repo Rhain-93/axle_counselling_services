@@ -16,6 +16,13 @@ body {
     /*Generic project styles*/
     color: #2a2a2a;
 }
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 body h2 {
     margin-top: 1rem;
 }
@@ -127,7 +134,7 @@ p {
 }
 
 #breakline {
-    background-color: orange;
+    background-color: rgb(247, 148, 29) ;
     height: 5px;
     width:80%;
     display: flex;
@@ -210,10 +217,13 @@ p {
 
     .hero {
         height: 900px;
-
-    /*Vicky's potrait*/
-    
     }
+
+/*Vicky's potrait*/
+.vicky_potrait {
+    height: 800px;
+}
+
 }
 
 
@@ -233,6 +243,7 @@ p {
     #menu {
         display:flex;
         flex-direction: row;
+        font-size: 20px;
          
     }
     
@@ -246,6 +257,8 @@ p {
     }
 
     #menu a:hover{
-        border-bottom: 1px solid rgbrgb(100, 83, 128);
+        border-bottom: 1px solid rgb(100, 83, 128);
+        color: rgb(247, 148, 29) ;
     }
+
 }
