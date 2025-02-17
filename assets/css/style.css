@@ -24,6 +24,10 @@ body {
         flex: 1 0 auto;
 }
 
+#breakline {
+    width: 50%;
+}
+
 .wrapper {
     width: 100%;
     max-width: 1400px;
@@ -333,11 +337,6 @@ footer #email {
 
 /*Vicky's potrait*/
 .vicky_potrait {
-    height: 1200px;
-    width: 100%;
-
-}
-
-}
-
-}
+    height: 700px;
+    width: 50%;
+    display: flex;
