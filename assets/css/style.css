@@ -59,23 +59,12 @@ header {
     font-family: 'Zain', sans-serif;
 }
 
-/*Hero section*/
-.hero {
-    height: 600px;
-    width: 100%;
-    background: url(../images/sunset-beach.webp) no-repeat center center/ cover;
-    position: relative;
-    
-}
-
 /* Logo */
 
      img {
        height: 150px;
  
      }
-
-
 
 #menu {
     font-size: 100%;
@@ -126,6 +115,15 @@ header a{
 }
 
 /* Main content */
+
+/*Hero section*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/queenstown-sunset.jpg) no-repeat center center/ cover;
+    position: relative;
+    
+}
 
 
 p {
@@ -282,6 +280,15 @@ footer #email {
     header {
         height: 120px;
     }
+
+    /*Hero section*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/queenstown-sunset.jpg) no-repeat center center/ cover;
+    position: relative;
+    
+}
 
     /*Logo*/
 
