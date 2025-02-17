@@ -258,7 +258,7 @@ footer #email {
     /*hero image*/
 
     .hero {
-        height: 900px;
+        height: 600px;
     }
 
 /*Vicky's potrait*/
@@ -280,15 +280,6 @@ footer #email {
     header {
         height: 120px;
     }
-
-    /*Hero section*/
-.hero {
-    height: 600px;
-    width: 100%;
-    background: url(../images/queenstown-sunset.jpg) no-repeat center center/ cover;
-    position: relative;
-    
-}
 
     /*Logo*/
 
@@ -326,6 +317,23 @@ footer #email {
         border-bottom: 1px solid rgb(100, 83, 128);
         color: rgb(247, 148, 29) ;
     }
+
+    /*Main content*/
+        /*Hero section*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/queenstown-sunset.jpg) no-repeat center center/ cover;
+    position: relative;
+    
+}
+
+/*Vicky's potrait*/
+.vicky_potrait {
+    height: 1200px;
+    width: 100%;
+    
+}
 
 }
 
