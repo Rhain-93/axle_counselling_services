@@ -133,9 +133,12 @@ p {
     font-family: 'Gabarito', sans-serif;
     text-align: left;
     padding: 0.5rem;
-    background-color:rgb(255, 230, 203);
+    
     color: rgb(65, 64, 66);
     border-radius: 5%;
+    width: 75%;
+    display: flex;
+    justify-self: center;
 }
 
 #breakline {
@@ -332,7 +335,7 @@ footer #email {
 .vicky_potrait {
     height: 1200px;
     width: 100%;
-    
+
 }
 
 }
