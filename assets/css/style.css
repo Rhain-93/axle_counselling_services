@@ -135,7 +135,6 @@ p {
     font-family: 'Gabarito', sans-serif;
     text-align: left;
     padding: 0.5rem;
-    
     color: rgb(65, 64, 66);
     border-radius: 5%;
     width: 75%;
@@ -172,21 +171,25 @@ p {
     border-radius: 50%;
 }
 
+/*approach section*/
 
-.cover-text {
-    background-color:rgb(211, 205, 217);
-    opacity: 0.9;
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 70%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-   
+div li {
+   font-size: 100%;
+    line-height: 1.5;
+    margin: 1rem;
+    font-family: 'Gabarito', sans-serif;
+    text-align: left;
+    padding: 0.5rem;
+    color: rgb(65, 64, 66);
+    border-radius: 5%;
+    width: 75%;
+    display: revert;
+    justify-self: center;
+    background-color: rgb(255, 230, 203);
+ 
 }
 
-
+/*Footer section*/
 
 footer {
     background-color: rgb(255, 230, 203);
@@ -279,6 +282,7 @@ footer #email {
 .vicky_potrait {
     height: 800px;
 }
+}
 
 
 /*Footer section*/
@@ -347,3 +351,8 @@ footer #email {
     height: 700px;
     width: 50%;
     display: flex;
+}
+
+}
+
+/* End of media queries for laptops & desktops */
