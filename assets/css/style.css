@@ -163,6 +163,15 @@ p {
     border-radius: 10%;
 }
 
+.self-portrait {
+    display: flex;
+    justify-self: center;
+    height: 400px;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
 
 .cover-text {
     background-color:rgb(211, 205, 217);
