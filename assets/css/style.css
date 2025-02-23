@@ -70,6 +70,7 @@ header {
  
      }
 
+    
 #menu {
     font-size: 100%;
     letter-spacing: 2px;
@@ -126,10 +127,7 @@ header a{
     width: 100%;
     background: url(../images/queenstown-sunset.jpg) no-repeat center center/ cover;
     position: relative;
-    
 }
-
-
 p {
     font-size: 100%;
     line-height: 1.5;
