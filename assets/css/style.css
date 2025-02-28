@@ -194,7 +194,7 @@ p {
     color: white!important;
     padding: 0.5rem 1rem;
     border-radius: 5%;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 1rem;
     text-align: center;
     display: flex;
@@ -207,8 +207,47 @@ a:link {
     display: flex;
     justify-self: center;
     text-align: center
-
+    
 }
+
+/*Certificate section*/
+#bacp img {
+    display: flex;
+    justify-self: center;
+    height: 200px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%; 
+}
+
+#online-counselling img {
+    display: flex;
+    justify-self: center;
+    height: 600px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%; 
+}
+
+#demetia img {
+    display: flex;
+    justify-self: center;
+    height: 600px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%; 
+}
+
+#domestic-abuse img {
+    display: flex;
+    justify-self: center;
+    height: 600px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%;     
+}
+
+
 
 
 /*Footer section*/
