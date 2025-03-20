@@ -27,10 +27,9 @@ main {
 
 .wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
-  
 
 body h2 {
   margin-top: 1rem;
@@ -247,8 +246,7 @@ a:link {
 }
 
 .container {
-    display: flex;
-
+  display: flex;
 }
 
 /*Footer section*/
@@ -274,7 +272,7 @@ footer > h3 {
   text-align: center;
   color: #dadff7;
 }
-footer  {
+footer {
   text-align: center;
   font-size: 20px;
   margin: 0;
@@ -302,6 +300,7 @@ a#email {
   font-weight: 500;
   font-size: 20px;
   margin: 1rem;
+  
 }
 
 /*Media Queries*/
@@ -385,12 +384,12 @@ a#email {
   }
 
   a#email {
-  color: rgb(65, 64, 66);
-  text-align: center;
-  font-size: 25px;
-  font-weight: 500;
-  margin-left: 134px;
-}
+    color: rgb(65, 64, 66);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 134px;
+  }
 
   /*Certificate section*/
   #bacp img {
@@ -444,12 +443,12 @@ a#email {
     height: 800px;
   }
 
-   .container {
+  .container {
     display: grid;
-   justify-items: space-between;
-   justify-items: center;
-   width: 100%;
-}
+    justify-items: space-between;
+    justify-items: center;
+    width: 100%;
+  }
 }
 
 /*Footer section*/
@@ -558,81 +557,107 @@ a#email {
     font-weight: 400;
   }
 
-   a#email {
-  color: rgb(65, 64, 66);
-  text-align: center;
-  font-size: 25px;
-  font-weight: 500;
-  margin-left: 207px;
-
-  .container {
-    display: grid;
-   justify-items: space-between;
-   justify-items: center;
-   width: 100%;
-}
-}
-
-/* End of media queries for laptops & desktops */
-
-/*Media queries for XL screens*/
-@media screen and (min-width: 1200px) {
-  /*Certificate section*/
-  #bacp img {
-    grid-row: span;
-    height: 200px;
-    width: 300px;
-    padding: 1rem;
-    border-radius: 10%;
-  }
-
-  #online-counselling img {
-    grid-row: span;
-    height: 400px;
-    width: 400px;
-    padding: 1rem;
-    border-radius: 10%;
-  }
-
-  #demetia img {
-    grid-row: span;
-    height: 500px;
-    width: 400px;
-    padding: 1rem;
-    border-radius: 10%;
-  }
-
-  #domestic-abuse img {
-    grid-row: span;
-    height: 400px;
-    width: 500px;
-    padding: 1rem;
-    border-radius: 10%;
-  }
-
   a#email {
     color: rgb(65, 64, 66);
     text-align: center;
     font-size: 25px;
     font-weight: 500;
-    margin: 1rem;
-    display: flex;
-    align-self: center;
-}
+    margin-left: 207px;
 
- a#email {
-  color: rgb(65, 64, 66);
-  text-align: center;
-  font-size: 25px;
-  font-weight: 500;
-  margin-left: 300px;
+    .container {
+      display: grid;
+      justify-items: space-between;
+      justify-items: center;
+      width: 100%;
+    }
+  }
 
-.container {
-    display: grid;
-   justify-items: space-between;
-   justify-items: center;
-   width: 100%;
-}
-}
+  /* End of media queries for laptops & desktops */
+
+  /*Media queries for XL screens*/
+  @media screen and (min-width: 1200px) {
+    /*Certificate section*/
+    #bacp img {
+      grid-row: span;
+      height: 200px;
+      width: 300px;
+      padding: 1rem;
+      border-radius: 10%;
+    }
+
+    #online-counselling img {
+      grid-row: span;
+      height: 400px;
+      width: 400px;
+      padding: 1rem;
+      border-radius: 10%;
+    }
+
+    #demetia img {
+      grid-row: span;
+      height: 500px;
+      width: 400px;
+      padding: 1rem;
+      border-radius: 10%;
+    }
+
+    #domestic-abuse img {
+      grid-row: span;
+      height: 400px;
+      width: 500px;
+      padding: 1rem;
+      border-radius: 10%;
+    }
+
+    a#email {
+      color: rgb(65, 64, 66);
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+      margin: 1rem;
+      display: flex;
+      align-self: center;
+    }
+
+    a#email {
+      color: rgb(65, 64, 66);
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+      margin-left: 300px;
+
+      .container {
+        display: grid;
+        justify-items: space-between;
+        justify-items: center;
+        width: 100%;
+      }
+    }
+  }
+
+  /*Media queries for XXL screens*/
+  @media screen and (min-width: 1400px) {
+    .self-portrait {
+      display: flex;
+      height: 362px;
+      width: 300px;
+      padding: 1rem;
+      border-radius: 50%;
+      float: right;
+      margin-top: 1rem;
+      margin-right: 140px;
+      padding-top: 75px;
+    }
+    #expect {
+        margin-top: 75px;
+    }
+    a#email {
+    color: rgb(65, 64, 66);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 377px;
+
+  }
 }
 }
