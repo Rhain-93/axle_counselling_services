@@ -27,10 +27,10 @@ main {
 
 .wrapper {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vhra;
 }
+  
 
 body h2 {
   margin-top: 1rem;
@@ -246,12 +246,17 @@ a:link {
   border-radius: 10%;
 }
 
+.container {
+    display: flex;
+
+}
+
 /*Footer section*/
 
 footer {
   background-color: rgb(255, 230, 203);
   line-height: 40px;
-  padding-left: 4px;
+  padding-left: 3px;
   bottom: 0;
 }
 
@@ -269,7 +274,7 @@ footer > h3 {
   text-align: center;
   color: #dadff7;
 }
-footer p {
+footer  {
   text-align: center;
   font-size: 20px;
   margin: 0;
@@ -281,12 +286,11 @@ a#email {
   text-align: center;
   font-size: 25px;
   font-weight: 500;
-  margin: 1rem;
 }
 
 #useful-links {
   text-align: center;
-  padding: 5px 0;
+  padding: 3px 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -378,6 +382,7 @@ a#email {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
+    margin-left: 134px;
   }
 
   /*Certificate section*/
@@ -431,6 +436,13 @@ a#email {
   .vicky_potrait {
     height: 800px;
   }
+
+   .container {
+    display: grid;
+   justify-items: space-between;
+   justify-items: center;
+   width: 100%;
+}
 }
 
 /*Footer section*/
@@ -537,7 +549,14 @@ a#email {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    margin-left: 207px;
   }
+  .container {
+    display: grid;
+   justify-items: space-between;
+   justify-items: center;
+   width: 100%;
+}
 }
 
 /* End of media queries for laptops & desktops */
@@ -585,6 +604,7 @@ a#email {
     margin: 1rem;
     display: flex;
     align-self: center;
+    margin-left: 300px;
 }
 
 .container {
