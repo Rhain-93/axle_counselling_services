@@ -382,8 +382,15 @@ a#email {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    margin-left: 134px;
   }
+
+  a#email {
+  color: rgb(65, 64, 66);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 134px;
+}
 
   /*Certificate section*/
   #bacp img {
@@ -549,8 +556,15 @@ a#email {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    margin-left: 207px;
   }
+
+   a#email {
+  color: rgb(65, 64, 66);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 207px;
+
   .container {
     display: grid;
    justify-items: space-between;
@@ -604,13 +618,21 @@ a#email {
     margin: 1rem;
     display: flex;
     align-self: center;
-    margin-left: 300px;
 }
+
+ a#email {
+  color: rgb(65, 64, 66);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 300px;
 
 .container {
     display: grid;
    justify-items: space-between;
    justify-items: center;
    width: 100%;
+}
+}
 }
 }
