@@ -355,7 +355,7 @@ a#email {
   .self-portrait {
     display: flex;
     justify-self: center;
-    height: 650px;
+    height: 700px;
     width: 80%;
     padding: 1rem;
     border-radius: 50%;
