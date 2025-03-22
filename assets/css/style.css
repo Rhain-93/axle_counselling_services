@@ -142,7 +142,7 @@ p {
   justify-self: center;
 }
 
-#breakline {
+.breakline {
   background-color: rgb(247, 148, 29);
   height: 5px;
   width: 80%;
@@ -639,17 +639,17 @@ a#email {
   @media screen and (min-width: 1400px) {
     .self-portrait {
       display: flex;
-      height: 362px;
+      height: 400px;
       width: 300px;
       padding: 1rem;
-      border-radius: 50%;
+      border-radius: 25%;
       float: right;
       margin-top: 1rem;
-      margin-right: 140px;
-      padding-top: 75px;
+      margin-right: 300px;
+      
     }
     #expect {
-        margin-top: 75px;
+        margin-top: 150px;
     }
     a#email {
     color: rgb(65, 64, 66);
