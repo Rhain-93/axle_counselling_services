@@ -396,8 +396,7 @@ a#email {
     display: grid;
     justify-self: center;
     height: 200px;
-    width: 75%;
-
+    width: 50%;
     padding: 1rem;
     border-radius: 10%;
   }
@@ -445,7 +444,7 @@ a#email {
 
   .container {
     display: grid;
-    justify-items: space-between;
+    justify-content: space-between;
     justify-items: center;
     width: 100%;
   }
@@ -558,18 +557,27 @@ a#email {
   }
 
   a#email {
-    color: rgb(65, 64, 66);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    margin-left: 207px;
+  color: rgb(65, 64, 66);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 207px;
+  }
 
-    .container {
-      display: grid;
-      justify-items: space-between;
-      justify-items: center;
-      width: 100%;
-    }
+  .container {
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100%;
+  }
+
+  #bacp img {
+  display: grid;
+  justify-self: center;
+  height: 200px;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10%;
   }
 
   /* End of media queries for laptops & desktops */
@@ -577,13 +585,14 @@ a#email {
   /*Media queries for XL screens*/
   @media screen and (min-width: 1200px) {
     /*Certificate section*/
-    #bacp img {
-      grid-row: span;
-      height: 200px;
-      width: 300px;
-      padding: 1rem;
-      border-radius: 10%;
-    }
+     #bacp img {
+    display: grid;
+    justify-self: center;
+    height: 200px;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10%;
+  }
 
     #online-counselling img {
       grid-row: span;
@@ -625,13 +634,13 @@ a#email {
       font-size: 25px;
       font-weight: 500;
       margin-left: 300px;
+    }
 
-      .container {
-        display: grid;
-        justify-items: space-between;
-        justify-items: center;
-        width: 100%;
-      }
+    .container {
+      display: grid;
+      justify-content: space-between;
+      justify-items: center;
+      width: 100%;
     }
   }
 
@@ -658,6 +667,15 @@ a#email {
     font-weight: 500;
     margin-left: 377px;
 
+  }
+
+    #bacp img {
+    display: grid;
+    justify-self: center;
+    height: 250px;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10%;
   }
 }
 }
