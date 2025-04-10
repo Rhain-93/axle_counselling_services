@@ -382,7 +382,7 @@ input {
 }
 
 /** About me section*/
-#about {
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
