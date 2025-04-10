@@ -529,7 +529,7 @@ input {
 
   /*Vicky's potrait*/
   .vicky_potrait {
-    height: 800px;
+    height: 900px;
   }
 
   .container {
@@ -672,12 +672,6 @@ input {
     position: relative;
   }
 
-  /*Vicky's potrait*/
-  .vicky_potrait {
-    height: 700px;
-    width: 50%;
-    display: flex;
-  }
 
   #person-centred {
     width: 50%;
@@ -825,6 +819,20 @@ input {
     border-radius: 3%;
 }
 
+/*About me section*/
+
+ /*Vicky's potrait*/
+  .vicky_potrait {
+    height: 800px;
+    width: 75%;
+    display: flex;
+  }
+
+  .about {
+    width: 90%;
+    display: flex;
+    justify-self: center;
+  }
 
 
     /* End of media queries for laptops & desktops */
