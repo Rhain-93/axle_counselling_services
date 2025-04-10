@@ -34,15 +34,22 @@ body h2 {
   margin-top: 1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1{
   font-family: "Zain", sans-serif;
   color: rgb(100, 83, 128) !important;
   font-size: 40px !important;
+  text-align: center;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Zain", sans-serif;
+  color: rgb(100, 83, 128) !important;
+  font-size: 30px !important;
+  font-weight: 600!important;
   text-align: center;
   text-transform: capitalize;
 }
@@ -124,6 +131,14 @@ header a {
   height: 600px;
   width: 100%;
   background: url(../images/queenstown-sunset.jpg) no-repeat center center/
+    cover;
+  position: relative;
+}
+
+.hero2 {
+  height: 600px;
+  width: 100%;
+  background: url(../images/nz-hills.webp) no-repeat center center/
     cover;
   position: relative;
 }
@@ -326,6 +341,13 @@ form {
   width: 80%;
 
 }
+#form-header P {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(100, 83, 128);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
 
 .col {
   padding: 5px;
@@ -335,8 +357,8 @@ form {
 
 label {
   font-size: 20px;
-  color: rgb(65, 64, 66);
-  font-weight: 400;
+  color: rgb(100, 83, 128);
+  font-weight: 600;
 }
 
 textarea {
@@ -353,6 +375,12 @@ input {
   border-radius: 5%;
   border: 1px solid rgb(100, 83, 128);
 }
+
+.submit-button {
+  font-weight: 600;
+  width: 25%;
+}
+
 /*Media Queries*/
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width: 768px) {
@@ -405,7 +433,7 @@ input {
   .self-portrait {
     display: flex;
     justify-self: center;
-    height: 700px;
+    height: 850px;
     width: 80%;
     padding: 1rem;
     border-radius: 50%;
@@ -531,8 +559,8 @@ form {
 
 label {
   font-size: 20px;
-  color: rgb(65, 64, 66);
-  font-weight: 400;
+  color: rgb(100, 83, 128);
+  font-weight: 600;
   padding-bottom: 1rem;
   
 }
@@ -557,7 +585,14 @@ input {
 .btn {
   width: 25%;
   height: 50px;
-    font-size: 20px;
+    font-size: 40px;
+   
+  }
+
+  .submit-button {
+    width: 40%;
+     font-weight: 900;
+    
   }
 }
 
@@ -733,8 +768,8 @@ form {
 
 label {
   font-size: 20px;
-  color: rgb(65, 64, 66);
-  font-weight: 400;
+  color: rgb(100, 83, 128);
+  font-weight: 600;
   padding-bottom: 1rem;
   
 }
@@ -759,9 +794,13 @@ input {
 }
 
 .btn {
-  width: 25%;
+  width: 40%;
   height: 50px;
     font-size: 20px;
+  }
+
+  #submit-button {
+    width: 40%;
   }
 
   #message {
