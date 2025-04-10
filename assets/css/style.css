@@ -549,7 +549,7 @@ input {
     font-size: 20px;
   }
 }
-}
+
 
 /*Footer section*/
 
@@ -680,7 +680,85 @@ input {
   padding: 1rem;
   border-radius: 10%;
   }
+
+    /*Contact section*/
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:2rem;
+  padding: 2rem;
+  background-color: rgb(255, 230, 203);
+  border-radius: 3%;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+#form-header {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(100, 83, 128);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+
+.col {
+  padding: 5px;
+  width: 60%;
+  display: grid;
+  margin: 5px;
+
+}
+
+
+label {
+  font-size: 20px;
+  color: rgb(65, 64, 66);
+  font-weight: 400;
+  padding-bottom: 1rem;
+  
+}
+
+textarea {
+  
+  height: 200px;
+  padding: 10px;
+  border-radius: 5%;
+  border: 1px solid rgb(100, 83, 128);
+  padding-bottom: 1rem;
+
+  
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5%;
+  border: 1px solid rgb(100, 83, 128);
+}
+
+.btn {
+  width: 25%;
+  height: 50px;
+    font-size: 20px;
+  }
+
+  #message {
+    width: 100%
+  }
+}
+
+
 
     /* End of media queries for laptops & desktops */
     
@@ -782,3 +860,4 @@ input {
   }
 }
 
+}
