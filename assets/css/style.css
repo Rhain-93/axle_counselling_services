@@ -255,6 +255,9 @@ footer {
   line-height: 40px;
   padding-left: 3px;
   bottom: 0;
+ top:60px;
+    border-radius: 3%;
+    position: relative;
 }
 
 #social-networks {
@@ -320,11 +323,13 @@ form {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
 
 }
 
 .col {
   padding: 5px;
+  width: 75%;
 
 }
 
@@ -492,6 +497,12 @@ input {
     justify-content: space-between;
     justify-items: center;
     width: 100%;
+  }
+
+  footer {
+    position: relative;
+    top:60px;
+    border-radius: 3%;
   }
 
   /*Contact section*/
@@ -756,6 +767,11 @@ input {
   #message {
     width: 100%
   }
+
+   footer {
+    position: relative;
+    top:60px;
+    border-radius: 3%;
 }
 
 
@@ -856,8 +872,14 @@ input {
     height: 250px;
     width: 50%;
     padding: 1rem;
-    border-radius: 10%;
+    
+  }
+
+   footer {
+    position: relative;
+    top:60px;
+    border-radius: 3%;
   }
 }
-
+}
 }
