@@ -381,6 +381,18 @@ input {
   width: 25%;
 }
 
+/** About me section*/
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(255, 230, 203);
+  border-radius: 5%;
+}
+
 /*Media Queries*/
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width: 768px) {
