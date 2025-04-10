@@ -940,5 +940,13 @@ input {
     border-radius: 3%;
   }
 }
+/*About me section*/
+
+ /*Vicky's potrait*/
+  .vicky_potrait {
+    height: 900px;
+    width: 700px;
+    display: flex;
+  }
 }
 }
