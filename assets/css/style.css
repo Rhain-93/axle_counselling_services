@@ -13,7 +13,6 @@
     font-family: "Gabarito", sans-serif;
     /*Generic project styles*/
     background-color: rgb(241, 242, 242);
-  }
 
   main {
     /*make main element take up any suplus space and pushes footer down.*/
@@ -166,11 +165,20 @@
     margin-bottom: 1rem;
   }
 
-  .vicky_potrait {
+  .vicky_portrait img {
     display: flex;
     justify-self: center;
-    height: 50%;
-    width: 50%;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+  }
+
+  section img {
+    display: flex;
+    justify-self: center;
+    height: 100%;
+    width: 100%;
     padding: 1rem;
     border-radius: 10%;
   }
@@ -178,8 +186,8 @@
   .portrait-2 img {
     display: flex;
     justify-self: center;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     padding: 1rem;
     border-radius: 10%;
   }
@@ -404,6 +412,7 @@
   #about-info {
     width: 100%;
   }
+}
 
   /*Privacy Policy section*/
 
@@ -925,6 +934,7 @@
 
 /*Media queries for XXXL screens*/
 @media screen and (min-width: 1400px) {
+
   .self-portrait {
     display: flex;
     height: 100%;
@@ -970,7 +980,7 @@
     top: 60px;
     border-radius: 3%;
   }
-}
+
 /*About me section*/
 
 /*Vicky's potrait*/
@@ -989,4 +999,6 @@ a .btn {
   width: 25%;
   display: flex;
   justify-content: center;
+}
+
 }
