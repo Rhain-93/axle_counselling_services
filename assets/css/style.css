@@ -5,19 +5,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
 
-  /*General styles*/
-  body {
-    display: flex;
-    flex-direction: column;
-    font-family: "Gabarito", sans-serif;
-    /*Generic project styles*/
-    background-color: rgb(241, 242, 242);
+/*General styles*/
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gabarito", sans-serif;
+  /*Generic project styles*/
+  background-color: rgb(241, 242, 242);
+}
 
-  main {
-    /*make main element take up any suplus space and pushes footer down.*/
-    flex: 1 0 auto;
-  }
+main {
+  /*make main element take up any surplus space and pushes footer down.*/
+  flex: 1 0 auto;
+}
 
   #breakline {
     width: 50%;
@@ -195,10 +197,10 @@
   .self-portrait {
     display: flex;
     justify-self: center;
-    height: 400px;
-    width: 75%;
+    height: 550px;
+    width: 400px;
     padding: 1rem;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
   /*approach section*/
@@ -236,6 +238,7 @@
     display: flex;
     justify-self: center;
     text-align: center;
+    font-size: 20px;
   }
 
   /*Certificate section*/
@@ -412,7 +415,7 @@
   #about-info {
     width: 100%;
   }
-}
+
 
   /*Privacy Policy section*/
 
@@ -508,8 +511,8 @@
     #bacp img {
       display: grid;
       justify-self: center;
-      height: 50%;
-      width: 50%;
+      height: 200px;
+      width: 400px;
       padding: 1rem;
       border-radius: 10%;
     }
@@ -562,8 +565,8 @@
     .potrait-2 img {
       display: flex;
       justify-self: center;
-      height: 50%;
-      width: 50%;
+      height: 600px;
+      width: 400px;
       border-radius: 10%;
     }
 
@@ -849,7 +852,7 @@
     /*Vicky's potrait*/
     .vicky_potrait {
       height: 800px;
-      width: 75%;
+      width: 600px;
       display: flex;
     }
 
@@ -861,76 +864,6 @@
   }
 
   /* End of media queries for laptops & desktops */
-
-  /*Media queries for XXL screens*/
-
-  @media screen and (min-width: 1200px) {
-    .self-portrait {
-      display: flex;
-      height: 400px;
-      width: 300px;
-      padding: 1rem;
-      border-radius: 25%;
-      float: right;
-      margin-top: 1rem;
-      margin-right: 300px;
-    }
-
-    #contact-form {
-      display: flex;
-      justify-self: center;
-      align-items: center;
-      margin: 2rem;
-      padding: 2rem;
-      background-color: rgb(255, 230, 203);
-      border-radius: 3%;
-      width: 75%;
-    }
-    #expect {
-      margin-top: 150px;
-    }
-    a.email {
-      color: rgb(65, 64, 66);
-      text-align: center;
-      font-size: 25px;
-      font-weight: 400;
-    }
-
-    #bacp img {
-      display: grid;
-      justify-self: center;
-      height: 50%;
-      width: 50%;
-      padding: 1rem;
-    }
-
-    footer {
-      position: relative;
-      top: 60px;
-      border-radius: 3%;
-    }
-
-    /*About me section*/
-
-    /*Vicky's potrait*/
-    .vicky_potrait {
-      height: 50%;
-      width: 50%;
-      display: flex;
-    }
-  }
-  a .btn {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .potrait-2 img {
-    width: 50%;
-    height: 50%;
-    display: flex;
-  }
-}
 
 /*Media queries for XXXL screens*/
 @media screen and (min-width: 1400px) {
