@@ -169,7 +169,7 @@
   .vicky_potrait {
     display: flex;
     justify-self: center;
-    height: 500px;
+    height: 100%;
     width: 100%;
     padding: 1rem;
     border-radius: 10%;
@@ -397,11 +397,15 @@
     border-radius: 5%;
   }
 
-  /*Privacy Policy section*/
-
-
-
+  #values-p {
+    background-color: rgb(255, 230, 203);
   }
+
+  #about-info {
+    width: 100%;
+  }
+
+  /*Privacy Policy section*/
 
   /*Media Queries*/
   /*Media queries: Tablets and larger (768px and up.)*/
@@ -538,19 +542,19 @@
     }
 
     /*Vicky's potrait*/
-     .vicky_potrait {
-    display: flex;
-    justify-self: center;
-    height: 950px;
-    width: 650px;
-    border-radius: 5%;
-  }
+    .vicky_potrait {
+      display: flex;
+      justify-self: center;
+      height: 950px;
+      width: 650px;
+      border-radius: 5%;
+    }
 
     .portrait-2 img {
       display: flex;
       justify-self: center;
-      height: 800px;
-      width: 500px;
+      height: 50%;
+      width: 50%;
       border-radius: 5%;
     }
 
@@ -698,10 +702,9 @@
 
     .self-portrait {
       display: flex;
-      height: 362px;
-      width: 300px;
-      padding: 1rem;
-      border-radius: 50%;
+      height: 30%;
+      width: 30%;
+      border-radius: 15%;
       float: right;
       margin-top: 1rem;
       margin-right: 140px;
@@ -710,8 +713,8 @@
 
     .portrait-2 img {
       display: flex;
-      height: 8 00px;
-      width: 500px;
+      height: 50%;
+      width: 50%;
       border-radius: 5%;
     }
 
@@ -729,7 +732,6 @@
       text-align: center;
       font-size: 20px;
       font-weight: 400;
-    
     }
 
     a#email {
@@ -814,7 +816,7 @@
     }
 
     .btn {
-      width: 40%;
+      width: 25%;
       height: 50px;
       font-size: 20px;
     }
@@ -843,84 +845,80 @@
     }
 
     .about {
-      width: 75%;
+      width: 100%;
       display: flex;
       justify-self: center;
     }
-
-    #about-info {
-      width: 75%;
-    }
+  }
 
     /* End of media queries for laptops & desktops */
 
-    /*Media queries for XL screens*/
-    @media screen and (min-width: 1200px) {
-      /*Certificate section*/
-      #bacp img {
-        display: grid;
-        justify-self: center;
-        height: 200px;
+    
+      /*Media queries for XXL screens*/
+
+      @media screen and (min-width: 1200px) {
+        .self-portrait {
+          display: flex;
+          height: 400px;
+          width: 300px;
+          padding: 1rem;
+          border-radius: 25%;
+          float: right;
+          margin-top: 1rem;
+          margin-right: 300px;
+        }
+        #expect {
+          margin-top: 150px;
+        }
+        a#email {
+          color: rgb(65, 64, 66);
+          text-align: center;
+          font-size: 25px;
+          font-weight: 400;
+          
+        }
+
+        #bacp img {
+          display: grid;
+          justify-self: center;
+          height: 50%;
+          width: 50%;
+          padding: 1rem;
+        }
+
+        footer {
+          position: relative;
+          top: 60px;
+          border-radius: 3%;
+        }
+      
+      /*About me section*/
+
+      /*Vicky's potrait*/
+      .vicky_potrait {
+        height: 50%;
         width: 50%;
-        padding: 1rem;
-        border-radius: 10%;
-      }
-
-      #online-counselling img {
-        grid-row: span;
-        height: 400px;
-        width: 400px;
-        padding: 1rem;
-        border-radius: 10%;
-      }
-
-      #demetia img {
-        grid-row: span;
-        height: 500px;
-        width: 400px;
-        padding: 1rem;
-        border-radius: 10%;
-      }
-
-      #domestic-abuse img {
-        grid-row: span;
-        height: 400px;
-        width: 500px;
-        padding: 1rem;
-        border-radius: 10%;
-      }
-
-      a#email {
-        color: rgb(65, 64, 66);
-        text-align: center;
-        font-size: 25px;
-        font-weight: 500;
-        margin: 1rem;
         display: flex;
-        align-self: center;
-      }
-
-      a#email {
-        color: rgb(65, 64, 66);
-        text-align: center;
-        font-size: 25px;
-        font-weight: 500;
-        margin-left: 300px;
-      }
-
-      .container {
-        display: grid;
-        justify-content: space-between;
-        justify-items: center;
-        width: 100%;
       }
     }
+    a .btn {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+    }
 
-    /*Media queries for XXL screens*/
+    .portrait-2 img {
+      width: 50%;
+      height: 50%;
+      display: flex;
+    }
+  }
+
+    /*Media queries for XXXL screens*/
     @media screen and (min-width: 1400px) {
       .self-portrait {
         display: flex;
-        height: 400px;
+        height: 100%;
         width: 300px;
         padding: 1rem;
         border-radius: 25%;
@@ -942,8 +940,8 @@
       #bacp img {
         display: grid;
         justify-self: center;
-        height: 250px;
-        width: 50%;
+        height: 30%;
+        width: 30%;
         padding: 1rem;
       }
 
@@ -957,15 +955,19 @@
 
     /*Vicky's potrait*/
     .vicky_potrait {
-      height: 900px;
-      width: 700px;
+      height: 40%;
+      width: 40%;
       display: flex;
     }
-  }
+
+    .portrait-2 img {
+      width: 40%;
+      height: 40%;
+    }
+ 
   a .btn {
     width: 25%;
     display: flex;
     justify-content: center;
   }
-
 
