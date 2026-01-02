@@ -1,5 +1,5 @@
 function sendEmail() {
   emailjs.send("service_id", "template_id", {
-    to_email: "someone@example.com"
+    to_email: "rhainu@hotmail.co.uk"
   });
 }
