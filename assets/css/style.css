@@ -775,8 +775,8 @@ main {
     #bacp img {
       display: grid;
       justify-self: center;
-      height: 50%;
-      width: 50%;
+      height: 25%;
+      width: 25%;
       padding: 1rem;
       border-radius: 10%;
     }
