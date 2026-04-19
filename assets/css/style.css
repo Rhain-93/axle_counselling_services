@@ -149,9 +149,9 @@ main {
     font-family: "Gabarito", sans-serif;
     text-align: left;
     padding: 0.5rem;
-    color: rgb(65, 64, 66);
+    color: rgb(100, 83, 128);
     border-radius: 5%;
-    width: 75%;
+    width: 55%;
     display: flex;
     justify-self: center;
   }
@@ -239,6 +239,17 @@ main {
     justify-self: center;
     text-align: center;
     font-size: 20px;
+  }
+
+  div > contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(100, 83, 128);
+    border-radius: 5%;
   }
 
   /*Certificate section*/
