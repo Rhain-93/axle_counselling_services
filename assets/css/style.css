@@ -655,6 +655,15 @@ main {
 
   /*Footer section*/
 
+  #bacp img {
+      display: grid;
+      justify-self: center;
+      height: 30%;
+      width: 25%;
+      padding: 1rem;
+      border-radius: 10%;
+    }
+
   /*Media queries: Laptops & Desktops (992px and up.)*/
   @media screen and (min-width: 992px) {
     /*Header*/
@@ -776,7 +785,7 @@ main {
     #bacp img {
       display: grid;
       justify-self: center;
-      height: 25%;
+      height: 50%;
       width: 25%;
       padding: 1rem;
       border-radius: 10%;
