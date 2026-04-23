@@ -519,13 +519,14 @@ main {
     }
 
     /*Certificate section*/
-    #bacp img {
+    #bacp {
       display: grid;
       justify-self: center;
       height: 200px;
       width: 400px;
       padding: 1rem;
       border-radius: 10%;
+      
     }
 
     #online-counselling img {
@@ -716,7 +717,7 @@ main {
     }
 
     #person-centred {
-      width: 50%;
+      width: 97%;
       margin-bottom: 1rem;
       text-align: left !important;
       padding-top: 10px;
