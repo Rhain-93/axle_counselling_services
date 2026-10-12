@@ -179,8 +179,8 @@ main {
   section img {
     display: flex;
     justify-self: center;
-    height: 550px;
-    width: 400px;
+    height: 30%;
+    width: 75%;
     padding: 1rem;
     border-radius: 10%;
   }
@@ -253,11 +253,11 @@ main {
   }
 
   /*Certificate section*/
-  #bacp img {
+  .bacp img {
     display: flex;
     justify-content: center;
-    height: 150px;
-    width: 300px;
+    height: 30%;
+    width: 75%;
     padding: 1rem;
     border-radius: 10%;
     position: relative;
@@ -426,6 +426,11 @@ main {
   #about-info {
     width: 100%;
   }
+
+  /**Footer*/
+
+  
+
 
 
   /*Privacy Policy section*/
@@ -655,7 +660,7 @@ main {
 
   /*Footer section*/
 
-  #bacp img {
+  .bacp img {
       display: grid;
       justify-self: center;
       height: 30%;
@@ -782,7 +787,7 @@ main {
       width: 100%;
     }
 
-    #bacp img {
+    .bacp img {
       display: grid;
       justify-self: center;
       height: 50%;
