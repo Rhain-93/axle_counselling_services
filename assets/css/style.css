@@ -804,8 +804,7 @@ main {
     .bacp img {
       display: grid;
       justify-self: center;
-      height: 50%;
-      width: 25%;
+      width: 400px;
       padding: 1rem;
       border-radius: 10%;
     }
@@ -953,8 +952,8 @@ main {
   .bacp img {
     display: grid;
     justify-self: center;
-    height: 30%;
-    width: 30%;
+    height: auto;
+    width: 500px;
     padding: 1rem;
   }
 
