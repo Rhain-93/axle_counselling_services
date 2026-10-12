@@ -167,23 +167,16 @@ main {
     margin-bottom: 1rem;
   }
 
-  .vicky_potrait img {
+ /*Self portrait section*/
+     .img-section {
     display: flex;
     justify-self: center;
     padding: 1rem;
-    height: 600px;
-    width: 400px;
+    height: 30%;
+    width: 75%;
     border-radius: 10%;
   }
 
-  section img {
-    display: flex;
-    justify-self: center;
-    height: 30%;
-    width: 80%;
-    padding: 1rem;
-    border-radius: 10%; 
-  }
 
   .potrait-2 img {
     display: flex;
@@ -493,6 +486,17 @@ main {
       border-radius: 50%;
     }
 
+    /*Self portrait section*/
+     .img-section {
+    display: flex;
+    justify-self: center;
+    padding: 1rem;
+    height: 30%;
+    width: 75%;
+    border-radius: 10%;
+  }
+
+
     /* CTA button */
     .btn-light {
       background-color: rgb(100, 83, 128) !important;
@@ -524,7 +528,7 @@ main {
     }
 
     /*Certificate section*/
-    #bacp {
+    .bacp {
       display: grid;
       justify-self: center;
       height: 200px;
@@ -660,11 +664,11 @@ main {
 
   /*Footer section*/
 
-  #bacp img {
+  .bacp img {
       display: grid;
       justify-self: center;
-      height: 30%;
-      width: 80%;
+      height: 150px;
+      width: 300px;
       padding: 1rem;
       border-radius: 10%;
     }
@@ -737,6 +741,16 @@ main {
       padding-top: 10px;
       padding-left: 90px;
     }
+
+    /*Self portrait section*/
+     .img-section {
+    display: flex;
+    justify-self: center;
+    padding: 1rem;
+    height: 30%;
+    width: 50%;
+    border-radius: 10%;
+  }
 
     .self-portrait {
       display: flex;
@@ -926,7 +940,17 @@ main {
     margin-left: 377px;
   }
 
-  #bacp img {
+  /*Self portrait section*/
+     .img-section {
+    display: flex;
+    justify-self: center;
+    padding: 1rem;
+    height: 30%;
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .bacp img {
     display: grid;
     justify-self: center;
     height: 30%;
